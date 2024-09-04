@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.91be648f.css",
-    "main.js": "/static/js/main.c5884745.js",
-    "static/js/453.cde263f5.chunk.js": "/static/js/453.cde263f5.chunk.js",
-    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
-    "static/media/square.png": "/static/media/square.f8d637fa419fec790168.png",
-    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
-    "static/media/business-logo.png": "/static/media/business-logo.e1aa3bc57a19fd842a0b.png",
-    "index.html": "/index.html",
-    "main.91be648f.css.map": "/static/css/main.91be648f.css.map",
-    "main.c5884745.js.map": "/static/js/main.c5884745.js.map",
-    "453.cde263f5.chunk.js.map": "/static/js/453.cde263f5.chunk.js.map"
+    "main.css": "/modern-it/static/css/main.c1d364c6.css",
+    "main.js": "/modern-it/static/js/main.906f7d04.js",
+    "static/js/453.cde263f5.chunk.js": "/modern-it/static/js/453.cde263f5.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/modern-it/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/square.png": "/modern-it/static/media/square.f8d637fa419fec790168.png",
+    "static/media/bootstrap-icons.woff2?": "/modern-it/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/business-logo.png": "/modern-it/static/media/business-logo.e1aa3bc57a19fd842a0b.png",
+    "index.html": "/modern-it/index.html",
+    "main.c1d364c6.css.map": "/modern-it/static/css/main.c1d364c6.css.map",
+    "main.906f7d04.js.map": "/modern-it/static/js/main.906f7d04.js.map",
+    "453.cde263f5.chunk.js.map": "/modern-it/static/js/453.cde263f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.91be648f.css",
-    "static/js/main.c5884745.js"
+    "static/css/main.c1d364c6.css",
+    "static/js/main.906f7d04.js"
   ]
 }
