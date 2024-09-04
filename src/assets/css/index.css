@@ -5,7 +5,7 @@
 
 body {
     font-family: sans-serif;
-    background-color: #fff !important;
+    background-color:#fff !important;
     font-size: 16px;
 }
 
@@ -37,16 +37,28 @@ span {
 }
 
 
+.form-control {
+    background-color: #d1d1df !important;
+    border: 1.5px solid #fff !important;
+}
+
+.form-control::placeholder {
+    color: rgba(166, 166, 168, 0.9) !important;
+}
+
+
 
 /* Common CSS */
 .dropdown-item.active, .dropdown-item:active {
     color: #000000;
     text-decoration: none;
-    background-color: #ffffff;
+    background-color: #fff;
 }
 
 .bg-body-tertiary {
-    background-color: rgb(224 224 229) !important;
+    /* background-color:rgb(224 224 229) ; */
+    /* background-color:#e7f0ff   !important; */
+    background-color: #d1d1df !important;
 }
 
 .nav-item {
@@ -56,6 +68,12 @@ span {
 i {
     font-size: 16px;
     margin-right: 5px;
+}
+
+
+.ab-tm-header h2,
+.contact-us h2 {
+    margin-bottom: 20px;
 }
 
 
@@ -85,6 +103,7 @@ i {
     -moz-border-radius: 0 0 37% 0;
     -ms-border-radius: 0 0 37% 0;
     -o-border-radius: 0 0 37% 0;
+    box-shadow: 1px 1px 5px #999;
 }
 
 .banner-info {
@@ -110,6 +129,112 @@ i {
     height: 100%;
     object-fit: contain;
 }
+
+
+/* About Us */
+.ab-tm-card .card {
+    background-color: #d1d1df !important;
+}
+
+.ab-tm-header p {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.ab-tm-card .ab-tm-img {
+    height: 200px;
+}
+
+.ab-tm-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 13%;
+}
+
+.ab-tm-card .card-text {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.ab-btn {
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 1px 2px 4px #999 !important;
+}
+
+
+
+
+/* Contact US */
+.contact-us {
+    /* background-color: blue; */
+}
+
+.ct-box {
+    /* background-color: orange; */
+    width: 100%;
+}
+
+.ct-box-lt {
+    /* background-color: red; */
+    width: 100%;
+    height: 400px;
+}
+
+.ct-box-info {
+    width: 60%;
+}
+
+.ct-box-lt p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    /* background-color: yellow; */
+}
+
+.ct-box-rt {
+    width: 100%;
+    height: 400px;
+}
+
+.ct-box-rt form {
+    background-color: #d1d1df;
+    width: 350px;
+    height: 100%;
+    box-shadow: 1px 1px 3px 1px #999;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.ct-box-rt form .ct-btn {
+    font-size: 16px;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+}
+
+.ct-map {
+    background-color: red;
+    width: 100%;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Footer */

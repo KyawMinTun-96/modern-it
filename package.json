@@ -1,5 +1,5 @@
 {
-  "HomePage": "https://github.com/KyawMinTun-96/modernit",
+  "homepage": "https://kyawmintun-96.github.io/modern-it",
   "name": "modern-it",
   "version": "0.1.0",
   "private": true,
@@ -44,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }

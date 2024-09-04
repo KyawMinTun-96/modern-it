@@ -63,7 +63,7 @@ const footerPage = () => {
             </div>
 
             <div className='d-flex justify-content-center align-items-center border-white border-top  copy-right'>
-                <span>Copyright&copy;2024. All right reserved</span>
+                <span>&copy;2024 Modern IT Co.,Ltd. All rights reserved</span>
             </div>
         </footer>
     )
