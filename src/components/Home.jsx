@@ -1,11 +1,14 @@
 import React from 'react';
+import Contact from './Contact';
+import About from './About';
 
 const homePage = ()=> {
     return(
         <div className='container-xl'>
             <div className='jumbotron'>
                 <h1>Home Page</h1>
-                <p>Hello Welcome to React Home Page</p>
+                <About/>
+                <Contact/>
             </div>
         </div>
     );

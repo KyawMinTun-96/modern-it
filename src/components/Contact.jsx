@@ -1,7 +1,14 @@
 import React from 'react';
+import {useState} from 'react';
 import {NavLink} from 'react-router-dom';
+import PhoneInput from 'react-phone-input-2'
+import 'react-phone-input-2/lib/style.css'
+import GoogleMap  from './GoogleMap';
 
-const contactPage = () => {
+const ContactPage = () => {
+
+    const [value, setValue] = useState('');
+
     return(
         <div className='contact-us'>
             <div className='container-xl'>
@@ -27,32 +34,46 @@ const contactPage = () => {
                             </div>
                         </div>
                         <div className='d-flex justify-content-center py-3 ct-box-rt'>
-                            <form className='p-3'>
-                                <div className='form-group py-2'>
-                                    <input type='text' className='form-control' name='' placeholder='First name'/>
-                                </div>
-                                <div className='form-group py-2'>
-                                    <input type='text' className='form-control' name='' placeholder='Last name'/>
-                                </div>
-                                <div className='form-group py-2'>
-                                    <input type='email' className='form-control' name='' placeholder='Your email'/>
-                                </div>
-                                <div className='form-group py-2'>
-                                    <input type='number' className='form-control py-2' name='' placeholder='Country Code'/>
-                                </div>
-                                <div className='form-group py-2'>
-                                    <input type='phone' className='form-control py-2' name='' placeholder='Your phone'/>
+                            <form className='p-3' id=''>
+                                <div className='d-flex flex-row justify-content-center my-3'>
+                                    <input type='text' className='form-control me-2' id='firstname' name='' placeholder='First name'/>
+                                    <input type='text' className='form-control' id='lastname' name='' placeholder='Last name'/>
                                 </div>
 
-                                {/* <div className='bg-dark'> */}
-                                    <button className='btn btn-primary ct-btn' style={{width: '100%'}}>Submit</button>
-                                {/* </div> */}
+                                <div className='mb-3'>
+                                    <input type='email' id='ct-email' className='form-control' name='' placeholder='Your email'/>
+                                </div>
+
+                                <div className='mb-3'>
+                                    <PhoneInput
+                                        inputProps={{
+                                            name: 'phone number',
+                                            id: 'ct-phone'
+                                        }}
+                                        country={'us'}
+                                        value={value}
+                                        onChange={(newValue) => setValue(newValue)}
+                                    />
+                                </div>
+
+                                <div className='mb-3'>
+                                    <textarea className='form-control ct-area' id='message' placeholder='message'>
+
+                                    </textarea>
+                                </div>
+
+                                <button className='btn btn-primary mb-3 ct-btn' style={{width: '100%'}}>Submit</button>
+                                
+                                <div className='d-flxex align-items-center'>
+                                    <p className='ct-policy'>By contacting us, You agree to our <b>Terms<br/> of service</b> and <b>policy</b></p>
+                                </div>
                             </form>
+                            
                         </div>
                     </div>
 
                     <div className='ct-map'>
-
+                        <GoogleMap/>
                     </div>
                 </div>
             </div>
@@ -60,5 +81,5 @@ const contactPage = () => {
     );
 }
 
-export default contactPage;
+export default ContactPage;
 
