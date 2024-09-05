@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.css": "/modern-it/static/css/main.c1d364c6.css",
-    "main.js": "/modern-it/static/js/main.906f7d04.js",
+    "main.css": "/modern-it/static/css/main.9867a225.css",
+    "main.js": "/modern-it/static/js/main.4009f540.js",
     "static/js/453.cde263f5.chunk.js": "/modern-it/static/js/453.cde263f5.chunk.js",
+    "static/media/IT Manager.jpg": "/modern-it/static/media/IT Manager.ff0e46992d049fc89134.jpg",
+    "static/media/HR.jpg": "/modern-it/static/media/HR.89c34843a755a3b689b8.jpg",
+    "static/media/COO.jpg": "/modern-it/static/media/COO.a06754a2f11c369a1796.jpg",
+    "static/media/CEO.jpg": "/modern-it/static/media/CEO.86815dd97372f6325d12.jpg",
+    "static/media/CTO.jpg": "/modern-it/static/media/CTO.98ceacd56f9cfd138fdb.jpg",
+    "static/media/OperationManager.jpg": "/modern-it/static/media/OperationManager.7b62c7a49ecdda3443a4.jpg",
+    "static/media/CFO.jpg": "/modern-it/static/media/CFO.4493acdc3123b33864b0.jpg",
+    "static/media/TeamLeader.jpg": "/modern-it/static/media/TeamLeader.af41244a1a19b71a57e6.jpg",
     "static/media/bootstrap-icons.woff?": "/modern-it/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/square.png": "/modern-it/static/media/square.f8d637fa419fec790168.png",
     "static/media/bootstrap-icons.woff2?": "/modern-it/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "static/media/business-logo.png": "/modern-it/static/media/business-logo.e1aa3bc57a19fd842a0b.png",
     "index.html": "/modern-it/index.html",
-    "main.c1d364c6.css.map": "/modern-it/static/css/main.c1d364c6.css.map",
-    "main.906f7d04.js.map": "/modern-it/static/js/main.906f7d04.js.map",
+    "main.9867a225.css.map": "/modern-it/static/css/main.9867a225.css.map",
+    "main.4009f540.js.map": "/modern-it/static/js/main.4009f540.js.map",
     "453.cde263f5.chunk.js.map": "/modern-it/static/js/453.cde263f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1d364c6.css",
-    "static/js/main.906f7d04.js"
+    "static/css/main.9867a225.css",
+    "static/js/main.4009f540.js"
   ]
 }
