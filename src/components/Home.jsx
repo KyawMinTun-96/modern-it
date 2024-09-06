@@ -6,9 +6,7 @@ const homePage = ()=> {
     return(
         <div className='container-xl'>
             <div className='jumbotron'>
-                <h1>Home Page</h1>
                 <About/>
-                <Contact/>
             </div>
         </div>
     );

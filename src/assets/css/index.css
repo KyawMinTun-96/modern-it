@@ -137,6 +137,16 @@ i {
     object-fit: contain;
 }
 
+.banner-img  img:hover {
+    scale: 1.15;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition-duration: 3s, 5s;
+}
+
 
 /* About Us */
 .ab-tm-card .card {
@@ -174,9 +184,32 @@ i {
 
 
 /* Contact US */
-/* .contact-us {
-    background-color: blue;
-} */
+.contact-us {
+    background-image: url('../images//imgs/office-group.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    /* height: 100vh; */
+    width: 100%;
+    z-index: -1; 
+}
+
+.contact-bg {
+    height: 300px;
+    background-color: transparent;
+}
+
+.contact-bg .breadcrumb-item,
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contact-bg .breadcrumb-item.active {
+    color: #ffffffa0;
+}
 
 .ct-box {
     /* background-color: orange; */

@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Mr. James",
+        "position": "Founder & CEO",
+        "image": "CEO.jpg"
+    
+    },
+    {
+        "id": 2,
+        "name": "Mr. William",
+        "position": "COO",
+        "image": "COO.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Miss Mary",
+        "position": "CFO",
+        "image": "CFO.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Mr. Robert",
+        "position": "CTO",
+        "image": "CTO.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Ms. Susan",
+        "position": "IT Manager",
+        "image": "IT Manager.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Ms. Jennifer",
+        "position": "HR Manager",
+        "image": "HR.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Ms. Elizabeth",
+        "position": "Operations Manager",
+        "image": "OperationManager.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Mr. Richard",
+        "position": "Team Leader",
+        "image": "TeamLeader.jpg"
+    }
+    
+]

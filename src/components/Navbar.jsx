@@ -1,8 +1,12 @@
-import {NavLink} from 'react-router-dom';
+import {NavLink, useLocation} from 'react-router-dom';
 
-const navBar = () => {
+const NavBar = () => {
+
+    const location = useLocation();
+    const currentPath = location.pathname;
+  
     return (
-        <div className='mb-5'>
+        <div className={currentPath === '/contact' ? '' : 'mb-5'}>
             <div className='top-navbar bg-body-tertiary border-white border-bottom d-flex'>
                 <div className='container-xl'>
                     <div className='row'>
@@ -50,19 +54,25 @@ const navBar = () => {
                 </div>
             </nav>
 
-            <div className='bg-body-tertiary d-flex flex-column justify-content-center align-items-center banner'>
-                <div className='container-xl d-flex justify-content-around align-items-start'>
-                    <div className='banner-info'>
-                        <h1>Modern IT Co., Ltd</h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            {
+                currentPath === '/' ? (
+                    <div className='bg-body-tertiary d-flex flex-column justify-content-center align-items-center banner'>
+                        <div className='container-xl d-flex justify-content-around align-items-start'>
+                            <div className='banner-info'>
+                                <h1>Modern IT Co., Ltd</h1>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            </div>
+                            <div className='banner-img'>
+                                <img src={require('../assets/images/imgs/square.png')} alt='banner profile img'/>
+                            </div>
+                        </div>
                     </div>
-                    <div className='banner-img'>
-                        <img src={require('../assets/images/imgs/square.png')} alt='banner profile img'/>
-                    </div>
-                </div>
-            </div>
+                ) : ''
+            }
+
+
         </div>
     );
 }
 
-export default navBar;
+export default NavBar;

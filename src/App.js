@@ -25,10 +25,10 @@ function App() {
         <Route path='/service' element={<Service/>} />
         <Route path='/blog' element={<Blog/>} />
         <Route path='/portfolio' element={<Portfolio/>} />
-        <Route path='*' element={<Error/>} />
         <Route path='/career' element={<Career/>} />
         <Route path='/event' element={<Event/>} />
         <Route path='/privacy-policy' element={<Policy/>} />
+        <Route path='*' element={<Error/>} />
       </Routes>
       <Footer/>
     </div>

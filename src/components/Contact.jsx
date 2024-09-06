@@ -11,14 +11,24 @@ const ContactPage = () => {
 
     return(
         <div className='contact-us'>
-            <div className='container-xl'>
-                <div className='d-flex flex-column align-items-center justify-content-center py-5'>
-                    <h2>Contact Us</h2>
+            <div className='contact-bg d-flex justify-content-center align-items-center'>
+                <nav aria-label="breadcrumb">
+                    <ol className="breadcrumb">
+                        <li className="breadcrumb-item">
+                            <NavLink to="/">Home</NavLink>
+                        </li>
+                        <li className="breadcrumb-item active" aria-current="page">Contact Us</li>
+                    </ol>
+                </nav>
+            </div>
+            <div className='bg-white d-flex flex-column align-items-center justify-content-center py-5'>
+                <h2>Contact Us</h2>
+                <div className='container-xl'>
                     <div className='d-flex align-items-center py-4 ct-box'>
                         <div className='d-flex justify-content-center py-3 ct-box-lt'>
                             <div className='ct-box-info'>
                                 <h3>Get in Touch</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur elit.<br/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p>We are always glad to hear your comments regarding our services. Whether you have any questions, please do not hesitate to contact us.</p>
                                 <p>
                                     <i className="bi bi-geo-alt"></i>
                                     <span>114 Naradhiwas Rajanagarindra Rd, Silom, Bang Rak, Bangkok 10500</span>
