@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/modern-it/static/css/main.9867a225.css",
-    "main.js": "/modern-it/static/js/main.4009f540.js",
+    "main.css": "/modern-it/static/css/main.d5dd6820.css",
+    "main.js": "/modern-it/static/js/main.1a9d72d6.js",
     "static/js/453.cde263f5.chunk.js": "/modern-it/static/js/453.cde263f5.chunk.js",
     "static/media/IT Manager.jpg": "/modern-it/static/media/IT Manager.ff0e46992d049fc89134.jpg",
+    "static/media/office-group.jpg": "/modern-it/static/media/office-group.57e0f7bda9d3f619048a.jpg",
     "static/media/HR.jpg": "/modern-it/static/media/HR.89c34843a755a3b689b8.jpg",
     "static/media/COO.jpg": "/modern-it/static/media/COO.a06754a2f11c369a1796.jpg",
     "static/media/CEO.jpg": "/modern-it/static/media/CEO.86815dd97372f6325d12.jpg",
@@ -16,12 +17,12 @@
     "static/media/bootstrap-icons.woff2?": "/modern-it/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "static/media/business-logo.png": "/modern-it/static/media/business-logo.e1aa3bc57a19fd842a0b.png",
     "index.html": "/modern-it/index.html",
-    "main.9867a225.css.map": "/modern-it/static/css/main.9867a225.css.map",
-    "main.4009f540.js.map": "/modern-it/static/js/main.4009f540.js.map",
+    "main.d5dd6820.css.map": "/modern-it/static/css/main.d5dd6820.css.map",
+    "main.1a9d72d6.js.map": "/modern-it/static/js/main.1a9d72d6.js.map",
     "453.cde263f5.chunk.js.map": "/modern-it/static/js/453.cde263f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9867a225.css",
-    "static/js/main.4009f540.js"
+    "static/css/main.d5dd6820.css",
+    "static/js/main.1a9d72d6.js"
   ]
 }
