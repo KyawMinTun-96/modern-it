@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/modern-it/static/css/main.d5dd6820.css",
-    "main.js": "/modern-it/static/js/main.cc4ba4a4.js",
+    "main.js": "/modern-it/static/js/main.612d644b.js",
     "static/js/453.cde263f5.chunk.js": "/modern-it/static/js/453.cde263f5.chunk.js",
     "static/media/IT Manager.jpg": "/modern-it/static/media/IT Manager.ff0e46992d049fc89134.jpg",
     "static/media/office-group.jpg": "/modern-it/static/media/office-group.57e0f7bda9d3f619048a.jpg",
@@ -18,11 +18,11 @@
     "static/media/business-logo.png": "/modern-it/static/media/business-logo.e1aa3bc57a19fd842a0b.png",
     "index.html": "/modern-it/index.html",
     "main.d5dd6820.css.map": "/modern-it/static/css/main.d5dd6820.css.map",
-    "main.cc4ba4a4.js.map": "/modern-it/static/js/main.cc4ba4a4.js.map",
+    "main.612d644b.js.map": "/modern-it/static/js/main.612d644b.js.map",
     "453.cde263f5.chunk.js.map": "/modern-it/static/js/453.cde263f5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5dd6820.css",
-    "static/js/main.cc4ba4a4.js"
+    "static/js/main.612d644b.js"
   ]
 }
