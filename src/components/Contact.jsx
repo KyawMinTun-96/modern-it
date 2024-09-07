@@ -1,6 +1,6 @@
 import React from 'react';
 import {useState} from 'react';
-import {NavLink} from 'react-router-dom';
+import {NavLink, useLocation} from 'react-router-dom';
 import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
 import GoogleMap  from './GoogleMap';
@@ -8,19 +8,28 @@ import GoogleMap  from './GoogleMap';
 const ContactPage = () => {
 
     const [value, setValue] = useState('');
+    const location = useLocation();
+    const currentLocation = location.pathname;
 
     return(
         <div className='contact-us'>
-            <div className='contact-bg d-flex justify-content-center align-items-center'>
-                <nav aria-label="breadcrumb">
-                    <ol className="breadcrumb">
-                        <li className="breadcrumb-item">
-                            <NavLink to="/">Home</NavLink>
-                        </li>
-                        <li className="breadcrumb-item active" aria-current="page">Contact Us</li>
-                    </ol>
-                </nav>
-            </div>
+            {
+                currentLocation === '/contact' ? 
+                (
+                        <div className='contact-bg d-flex justify-content-center align-items-center'>
+                        <nav aria-label="breadcrumb">
+                            <ol className="breadcrumb">
+                                <li className="breadcrumb-item">
+                                    <NavLink to="/">Home</NavLink>
+                                </li>
+                                <li className="breadcrumb-item active" aria-current="page">Contact Us</li>
+                            </ol>
+                        </nav>
+                    </div>
+                ) :''
+            }
+
+
             <div className='bg-white d-flex flex-column align-items-center justify-content-center py-5'>
                 <h2>Contact Us</h2>
                 <div className='container-xl'>

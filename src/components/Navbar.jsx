@@ -6,7 +6,7 @@ const NavBar = () => {
     const currentPath = location.pathname;
   
     return (
-        <div className={currentPath === '/contact' ? '' : 'mb-5'}>
+        <div>
             <div className='top-navbar bg-body-tertiary border-white border-bottom d-flex'>
                 <div className='container-xl'>
                     <div className='row'>

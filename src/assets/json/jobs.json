@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "position": "Frontent Developer",
+        "salary": "$40K-50K",
+        "jobType": "Full Time",
+        "createdDate": "22/8/2024"
+    },
+    {
+        "id": 2,
+        "position": "Backend Developer",
+        "salary": "$50K-60K",
+        "jobType": "Full Time",
+        "createdDate": "22/8/2024"
+    },
+    {
+        "id": 3,
+        "position": "UI/UX Designer",
+        "salary": "$20K-30K",
+        "jobType": "Remote",
+        "createdDate": "22/8/2024"
+    },
+    {
+        "id": 4,
+        "position": "Senior Frontent Developer",
+        "salary": "$50K-60K",
+        "jobType": "Full Time",
+        "createdDate": "22/8/2024"
+    },
+    {
+        "id": 5,
+        "position": "Project Manager",
+        "salary": "$100K-130K",
+        "jobType": "Full Time",
+        "createdDate": "22/8/2024"
+    }
+]

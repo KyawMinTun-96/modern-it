@@ -16,6 +16,7 @@ import "bootstrap/dist/js/bootstrap";
 
 import reportWebVitals from './reportWebVitals';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>

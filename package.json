@@ -1,5 +1,4 @@
 {
-  "homepage": "https://kyawmintun-96.github.io/modern-it",
   "name": "modern-it",
   "version": "0.1.0",
   "private": true,
@@ -25,9 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "clean": "rmdir /s /q build"
   },
   "eslintConfig": {
     "extends": [

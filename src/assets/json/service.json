@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0,
+        "logo": "bi-pie-chart-fill",
+        "title": "Digital Service",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    },
+    {
+        "id": 1,
+        "logo": "bi-cloud",
+        "title": "Cloud Solutions",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    },
+    {
+        "id": 2,
+        "logo": "bi-window",
+        "title": "Web Development",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    },
+    {
+        "id": 3,
+        "logo": "bi-megaphone",
+        "title": "Content Marketing",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    },
+    {
+        "id": 4,
+        "logo": "bi-graph-up-arrow",
+        "title": "Business Plans",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    },
+    {
+        "id": 5,
+        "logo": "bi-tablet-fill",
+        "title": "App Development",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    }
+]

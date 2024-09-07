@@ -148,56 +148,26 @@ i {
 }
 
 
-/* About Us */
-.ab-tm-card .card {
-    background-color: #d1d1df !important;
-}
-
-.ab-tm-header p {
-    font-weight: normal;
-    font-size: 16px;
-}
-
-.ab-tm-card .ab-tm-img {
-    height: 200px;
-}
-
-.ab-tm-card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: 0 13%;
-}
-
-.ab-tm-card .card-text {
-    font-weight: normal;
-    font-size: 16px;
-}
-
-.ab-btn {
-    font-weight: bold;
-    font-size: 14px;
-    box-shadow: 1px 2px 4px #999 !important;
-}
-
-
 
 
 /* Contact US */
-.contact-us {
+.contact-us,
+.about-us,
+.service,
+.career{
     background-image: url('../images//imgs/office-group.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
-    /* height: 100vh; */
     width: 100%;
-    z-index: -1; 
 }
 
 .contact-bg {
     height: 300px;
     background-color: transparent;
+    background-color: #252525;
+    opacity: 0.6;
 }
 
 .contact-bg .breadcrumb-item,
@@ -209,6 +179,7 @@ i {
 
 .contact-bg .breadcrumb-item.active {
     color: #ffffffa0;
+    opacity: 1;
 }
 
 .ct-box {
@@ -335,8 +306,140 @@ textarea.form-control {
 
 
 
+/* About Us */
+.ab-tm-card .card {
+    background-color: #d1d1df !important;
+}
+
+.ab-tm-header p {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.ab-tm-card .ab-tm-img {
+    height: 200px;
+}
+
+.ab-tm-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 13%;
+}
+
+.ab-tm-card .card-text {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.ab-btn {
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 1px 2px 4px #999 !important;
+}
 
 
+
+
+
+/* Service */
+.sv {
+    position: relative;
+    overflow: hidden;
+}
+
+.service .sv-bg {
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-image: url('../images/imgs/line.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    z-index: 1;
+}
+
+#sv-header .card {
+    z-index: 100;
+    border: none;
+    border-radius: unset !important;
+    -webkit-border-radius: unset !important;
+    -moz-border-radius: unset !important;
+    -ms-border-radius: unset !important;
+    -o-border-radius: unset !important;
+}
+
+.sv-active {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 30px 5px #e9e9e8;
+    border-radius: unset !important;
+    -webkit-border-radius: unset !important;
+    -moz-border-radius: unset !important;
+    -ms-border-radius: unset !important;
+    -o-border-radius: unset !important;
+}
+
+#sv-header .card:hover {
+    background-color: #ffffff;
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    box-shadow: 0px 0px 20px 5px #e9e9e8;
+    border-radius: unset !important;
+    -webkit-border-radius: unset !important;
+    -moz-border-radius: unset !important;
+    -ms-border-radius: unset !important;
+    -o-border-radius: unset !important;
+}
+
+.service .sv-logo {
+    height: 80px;
+}
+
+.service .sv-logo i{
+    font-size: 40px;
+    color: #d1d1df;
+    text-shadow: 1px 1px 2px #999;
+}
+
+.service .card-body p {
+    font-weight: normal;
+    font-size: 15px;
+    padding-right: 50px;
+    line-height: 1.5;
+}
+
+.service .card-body a {
+    color: rgb(19, 86, 230);
+    font-weight: bold;
+}
+
+
+
+
+/* Careers */
+.cr p {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.cr-body .card {
+    width: 600px;
+}
+
+.cr-active {
+    background-color: #0d6efd !important; 
+}
 
 
 
