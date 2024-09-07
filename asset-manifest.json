@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.667c99a0.css",
-    "main.js": "/static/js/main.974841f7.js",
-    "static/js/453.cde263f5.chunk.js": "/static/js/453.cde263f5.chunk.js",
-    "static/media/IT Manager.jpg": "/static/media/IT Manager.ff0e46992d049fc89134.jpg",
-    "static/media/office-group.jpg": "/static/media/office-group.57e0f7bda9d3f619048a.jpg",
-    "static/media/HR.jpg": "/static/media/HR.89c34843a755a3b689b8.jpg",
-    "static/media/COO.jpg": "/static/media/COO.a06754a2f11c369a1796.jpg",
-    "static/media/CEO.jpg": "/static/media/CEO.86815dd97372f6325d12.jpg",
-    "static/media/CTO.jpg": "/static/media/CTO.98ceacd56f9cfd138fdb.jpg",
-    "static/media/OperationManager.jpg": "/static/media/OperationManager.7b62c7a49ecdda3443a4.jpg",
-    "static/media/CFO.jpg": "/static/media/CFO.4493acdc3123b33864b0.jpg",
-    "static/media/TeamLeader.jpg": "/static/media/TeamLeader.af41244a1a19b71a57e6.jpg",
-    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
-    "static/media/square.png": "/static/media/square.f8d637fa419fec790168.png",
-    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
-    "static/media/business-logo.png": "/static/media/business-logo.e1aa3bc57a19fd842a0b.png",
-    "index.html": "/index.html",
-    "main.667c99a0.css.map": "/static/css/main.667c99a0.css.map",
-    "main.974841f7.js.map": "/static/js/main.974841f7.js.map",
-    "453.cde263f5.chunk.js.map": "/static/js/453.cde263f5.chunk.js.map"
+    "main.css": "/modern-it/static/css/main.d5dd6820.css",
+    "main.js": "/modern-it/static/js/main.cc4ba4a4.js",
+    "static/js/453.cde263f5.chunk.js": "/modern-it/static/js/453.cde263f5.chunk.js",
+    "static/media/IT Manager.jpg": "/modern-it/static/media/IT Manager.ff0e46992d049fc89134.jpg",
+    "static/media/office-group.jpg": "/modern-it/static/media/office-group.57e0f7bda9d3f619048a.jpg",
+    "static/media/HR.jpg": "/modern-it/static/media/HR.89c34843a755a3b689b8.jpg",
+    "static/media/COO.jpg": "/modern-it/static/media/COO.a06754a2f11c369a1796.jpg",
+    "static/media/CEO.jpg": "/modern-it/static/media/CEO.86815dd97372f6325d12.jpg",
+    "static/media/CTO.jpg": "/modern-it/static/media/CTO.98ceacd56f9cfd138fdb.jpg",
+    "static/media/OperationManager.jpg": "/modern-it/static/media/OperationManager.7b62c7a49ecdda3443a4.jpg",
+    "static/media/CFO.jpg": "/modern-it/static/media/CFO.4493acdc3123b33864b0.jpg",
+    "static/media/TeamLeader.jpg": "/modern-it/static/media/TeamLeader.af41244a1a19b71a57e6.jpg",
+    "static/media/bootstrap-icons.woff?": "/modern-it/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/square.png": "/modern-it/static/media/square.f8d637fa419fec790168.png",
+    "static/media/bootstrap-icons.woff2?": "/modern-it/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/business-logo.png": "/modern-it/static/media/business-logo.e1aa3bc57a19fd842a0b.png",
+    "index.html": "/modern-it/index.html",
+    "main.d5dd6820.css.map": "/modern-it/static/css/main.d5dd6820.css.map",
+    "main.cc4ba4a4.js.map": "/modern-it/static/js/main.cc4ba4a4.js.map",
+    "453.cde263f5.chunk.js.map": "/modern-it/static/js/453.cde263f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.667c99a0.css",
-    "static/js/main.974841f7.js"
+    "static/css/main.d5dd6820.css",
+    "static/js/main.cc4ba4a4.js"
   ]
 }
