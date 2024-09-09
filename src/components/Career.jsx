@@ -41,6 +41,35 @@ const CareerPage = () => {
 
                 <div className='container-xl'>
                     <div className='d-flex flex-lg-column justify-content-center align-items-center py-5 cr-body'>
+                        
+                        <div className='d-flex justify-content-center align-items-center mb-5 cr-filter'>
+                            <form className="d-flex align-items-center border" role="search">
+                                <i className="bi bi-search"></i>
+                                <input className="form-control me-3" type="search" placeholder="Job Title" aria-label="Search" />
+                                
+                                <i className="bi bi-suitcase-lg"></i>
+                                <select className="form-select me-3" aria-label="Default select example">
+                                    <option value={'selected'}>Job Type</option>
+                                    <option value="FT">Full Time</option>
+                                    <option value="PT">Part Time</option>
+                                    <option value="RM">Remote</option>
+                                </select>
+
+
+                                <i className="bi bi-suitcase-lg"></i>
+                                <select className="form-select me-3" aria-label="Default select example">
+                                    <option value={'selected'}>Location</option>
+                                    <option value="US">United State</option>
+                                    <option value="SG">Singapore</option>
+                                    <option value="TL">Thailand</option>
+                                    
+                                </select>
+                                
+                            </form>
+
+                            <button type='submit' className="btn btn-outline-primary" >Search</button>
+                        </div>
+
                         <div className='cr-position'>
                             {
                                 firstloading ? (
