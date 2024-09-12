@@ -9,6 +9,7 @@ import App from './App';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import './assets/css/index.css';
+import './assets/css/media-query.css'
 
 // JavaScript
 import "bootstrap/dist/js/bootstrap";

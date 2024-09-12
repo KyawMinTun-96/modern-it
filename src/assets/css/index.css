@@ -153,8 +153,10 @@ i {
 /* Contact US */
 .contact-us,
 .about-us,
+.portfolio,
 .service,
-.career{
+.career,
+.blog{
     background-image: url('../images//imgs/office-group.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -264,10 +266,10 @@ i {
     font-family: sans-serif;
     text-align: center;
     font-weight: normal;
-    color: rgba(166, 166, 168, 1);
+    color: rgb(80, 80, 80);
 }
 
-.ct-box-rt form .ct-policy b{
+.ct-box-rt form .ct-policy span{
     color: #333;
     font-weight: bold !important;
 }

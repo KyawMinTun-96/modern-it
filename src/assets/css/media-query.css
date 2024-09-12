@@ -1,0 +1,89 @@
+@media (max-width: 769px) {
+
+
+    /* About CSS */
+    .ab-tm-card .ab-tm-img {
+        height: 150px;
+    }
+
+    .ab-tm-card h5 {
+        font-size: 1rem;
+    }
+
+    .ab-tm-card .card-text {
+        font-size: 14px;
+    }
+
+
+    /* Contact CSS */
+    .ct-box {
+        flex-direction: column;
+    }
+
+    .ct-box-info{
+        width: 80%;
+    }
+
+    .ct-box-rt form {
+        width: 400px;
+    }
+
+
+
+    /* Service CSS */
+    .service .card-body p {
+        font-size: 14px;
+        padding-right: 0px;
+    }
+
+    .service .card-body a {
+        font-size: 14px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    /* Navbar CSS */
+    .border-end {
+        border-right: 0px !important;
+    }
+
+    .ct-box-info{
+        width: 90%;
+    }
+
+
+    /* About CSS */
+    .ab-tm-card .ab-tm-img {
+        height: 300px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* footer */
+    .ft-sec .ft-logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .ft-sec {
+        padding-left: 0px !important;
+    }
+
+    .ft-sec img {
+        width: 50% !important;
+        margin: 0 auto !important;
+    }
+
+}

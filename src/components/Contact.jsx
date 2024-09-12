@@ -16,7 +16,7 @@ const ContactPage = () => {
             {
                 currentLocation === '/contact' ? 
                 (
-                        <div className='contact-bg d-flex justify-content-center align-items-center'>
+                    <div className='contact-bg d-flex justify-content-center align-items-center'>
                         <nav aria-label="breadcrumb">
                             <ol className="breadcrumb">
                                 <li className="breadcrumb-item">
@@ -55,12 +55,12 @@ const ContactPage = () => {
                         <div className='d-flex justify-content-center py-3 ct-box-rt'>
                             <form className='p-3' id=''>
                                 <div className='d-flex flex-row justify-content-center my-3'>
-                                    <input type='text' className='form-control me-2' id='firstname' name='' placeholder='First name'/>
-                                    <input type='text' className='form-control' id='lastname' name='' placeholder='Last name'/>
+                                    <input type='text' className='form-control me-2' id='firstname' name='' placeholder='First name' required/>
+                                    <input type='text' className='form-control' id='lastname' name='' placeholder='Last name' required/>
                                 </div>
 
                                 <div className='mb-3'>
-                                    <input type='email' id='ct-email' className='form-control' name='' placeholder='Your email'/>
+                                    <input type='email' id='ct-email' className='form-control' name='' placeholder='Your email' required/>
                                 </div>
 
                                 <div className='mb-3'>
@@ -76,7 +76,7 @@ const ContactPage = () => {
                                 </div>
 
                                 <div className='mb-3'>
-                                    <textarea className='form-control ct-area' id='message' placeholder='message'>
+                                    <textarea className='form-control ct-area' id='message' placeholder='message' required>
 
                                     </textarea>
                                 </div>
@@ -84,7 +84,7 @@ const ContactPage = () => {
                                 <button className='btn btn-primary mb-3 ct-btn' style={{width: '100%'}}>Submit</button>
                                 
                                 <div className='d-flxex align-items-center'>
-                                    <p className='ct-policy'>By contacting us, You agree to our <b>Terms<br/> of service</b> and <b>policy</b></p>
+                                    <p className='ct-policy'>By contacting us, You agree to our <span>Terms<br/> of service</span> and <span>policy</span></p>
                                 </div>
                             </form>
                             

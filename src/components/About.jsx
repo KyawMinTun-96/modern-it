@@ -5,27 +5,27 @@ import { NavLink, useLocation } from 'react-router-dom';
 
 const AboutPage = () => {
 
-    const[visibleCards, setVisibleCards] = useState(4);
-    const[state, setState] = useState([]);
-    const[loading, setLoading] = useState(false);
-    const[firstloading, setFirstLoading] = useState(true);
-    const location = useLocation();
-    const currentLocation = location.pathname;
+    const[aboutVisibleCards, setAboutVisibleCards] = useState(4);
+    const[teams, setTeams] = useState([]);
+    const[teamsLoading, setTeamsLoading] = useState(false);
+    const[firstTeamLoading, setFirstTeamLoading] = useState(true);
+    const aboutLocation = useLocation();
+    const currentAboutLocation = aboutLocation.pathname;
 
     useEffect(() => {
  
         setTimeout(() => {
-            setState(TeamData);
-            setFirstLoading(false);
-        }, 1500);
-    }, [state]);
+            setTeams(TeamData);
+            setFirstTeamLoading(false);
+        }, 1000);
+    }, [teams]);
 
     const handleViewMore = (() =>{
-        setLoading(true);
+        setTeamsLoading(true);
         setTimeout(() => {
-            setLoading(false);
-            setVisibleCards(card => card + 4);
-        }, 1500);
+            setTeamsLoading(false);
+            setAboutVisibleCards(card => card + 4);
+        }, 1000);
 
     })
 
@@ -34,7 +34,7 @@ const AboutPage = () => {
         <div className='about-us'>
 
             {
-                currentLocation === '/about' ? 
+                currentAboutLocation === '/about' ? 
                 (
                     <div className='contact-bg d-flex justify-content-center align-items-center'>
                         <nav aria-label="breadcrumb">
@@ -59,7 +59,7 @@ const AboutPage = () => {
                     <div className='row py-3 ab-tm-card'>
 
                         {
-                            firstloading ? (
+                            firstTeamLoading ? (
                                 [...Array(4)].map((_, index) => (
                                     <div className='col-md-3' key={index}>
                                         <div className="card overflow-hidden" aria-hidden="true">
@@ -79,7 +79,7 @@ const AboutPage = () => {
                             )
 
                             :(
-                                state.slice(0, visibleCards).map((data) => {
+                                teams.slice(0, aboutVisibleCards).map((data) => {
                                 return(
                                     <div className='col-md-3' key={data.id}>
                                         <div className="card mb-3">
@@ -100,7 +100,7 @@ const AboutPage = () => {
 
                         {/* Display placeholders while loading */}
                         {
-                            loading && (
+                            teamsLoading && (
                                 [...Array(4)].map((_, index) => (
                                     <div className='col-md-3' key={index}>
                                         <div className="card overflow-hidden" aria-hidden="true">
@@ -121,7 +121,7 @@ const AboutPage = () => {
 
                         <div className='d-flex justify-content-center py-3'>
                             {
-                                !loading && visibleCards < state.length && (
+                                !teamsLoading && aboutVisibleCards < teams.length && (
                                     <button className='btn bg-body-tertiary ab-btn' onClick={handleViewMore}>View More</button>
                                 )
                             }

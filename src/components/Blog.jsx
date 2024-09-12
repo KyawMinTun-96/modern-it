@@ -1,11 +1,18 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const blogPage = () => {
     return(
-        <div className='container-xl'>
-            <div className='jumbotron'>
-                <h1>Blog Page</h1>
-                <p>Hello Welcome to React Blog Page</p>
+        <div className='blog'>
+            <div className='contact-bg d-flex justify-content-center align-items-center'>
+                <nav aria-label="breadcrumb">
+                    <ol className="breadcrumb">
+                        <li className="breadcrumb-item">
+                            <NavLink to="/">Home</NavLink>
+                        </li>
+                        <li className="breadcrumb-item active" aria-current="page">Blog</li>
+                    </ol>
+                </nav>
             </div>
         </div>
     );

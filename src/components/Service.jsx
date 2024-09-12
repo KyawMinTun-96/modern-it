@@ -61,7 +61,7 @@ const ServcePage = ()=> {
                                             <p className="card-text placeholder-glow" style={{padding: 0}}>
                                                 <span className="placeholder col-8"></span>
                                             </p>
-                                            <NavLink className="card-link placeholder-glow" to='/'>
+                                            <NavLink className="card-link placeholder-glow" to='/service'>
                                                 <span className='placeholder col-5'></span>
                                             </NavLink>
                                         </div>
@@ -81,7 +81,7 @@ const ServcePage = ()=> {
                                             <div className="card-body">
                                                 <h4 className="card-title mb-4">{data.title}</h4>
                                                 <p className="card-text">{data.content}</p>
-                                                <NavLink to={`/service?sid=${data.id}`} className="card-link">Read More</NavLink>
+                                                <NavLink to={`/service?sid=${data.id}`} className="card-link">Details</NavLink>
                                             </div>
                                         </div>
                                     </div>
