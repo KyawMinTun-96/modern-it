@@ -1,9 +1,22 @@
 import {NavLink, useLocation} from 'react-router-dom';
+import {useState} from 'react';
 
 const NavBar = () => {
 
     const location = useLocation();
     const currentPath = location.pathname;
+    const[isVisible, setISVisible] = useState(false);
+
+    
+    window.addEventListener('scroll', () => {
+        const scrollHeight = window.pageYOffset;
+
+        if(scrollHeight >= 57) {
+            setISVisible(true);
+        }if (scrollHeight <= 57) {
+            setISVisible(false);
+        }
+    })
   
     return (
         <div>
@@ -21,7 +34,7 @@ const NavBar = () => {
                 </div>
             </div>
 
-            <nav className="navbar navbar-expand-lg bg-body-tertiary py-4">
+            <nav className={`${isVisible ? 'navbar navbar-expand-lg bg-body-tertiary py-4 second-nav' : 'navbar navbar-expand-lg bg-body-tertiary py-4'}`}>
                 <div className="container-xl">
                     <NavLink className="navbar-brand nav-logo" to="/">
                         <img src={require('../assets/images/logos/business-logo.png')} alt='logo img'/>
@@ -36,9 +49,6 @@ const NavBar = () => {
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link"  style={({isActive}) => {return {fontWeight: isActive ? 'bold' : 'normal'}}}  aria-current="page" to="/service">SERVICE</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link"  style={({isActive}) => {return {fontWeight: isActive ? 'bold' : 'normal'}}}  aria-current="page" to="/portfolio">PORTFOLIO</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link"  style={({isActive}) => {return {fontWeight: isActive ? 'bold' : 'normal'}}}  to="/blog">BLOG</NavLink>
@@ -58,11 +68,13 @@ const NavBar = () => {
                 currentPath === '/' ? (
                     <div className='bg-body-tertiary d-flex flex-column justify-content-center align-items-center banner'>
                         <div className='container-xl d-flex justify-content-around align-items-start'>
-                            <div className='banner-info'>
+                            <div className='banner-info' data-aos="fade-right" data-aos-offset="100"
+                            data-aos-duration="1000">
                                 <h1>Modern IT Co., Ltd</h1>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                             </div>
-                            <div className='banner-img'>
+                            <div className='banner-img' data-aos="fade-left" data-aos-offset="100"
+                                data-aos-duration="1000">
                                 <img src={require('../assets/images/imgs/square.png')} alt='banner profile img'/>
                             </div>
                         </div>

@@ -12,7 +12,8 @@ const ContactPage = () => {
     const currentLocation = location.pathname;
 
     return(
-        <div className='contact-us'>
+        <div className='contact-us' data-aos="fade-up"
+        data-aos-duration="3000">
             {
                 currentLocation === '/contact' ? 
                 (

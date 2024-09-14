@@ -31,7 +31,8 @@ const AboutPage = () => {
 
 
     return(
-        <div className='about-us'>
+        <div className='about-us' data-aos="fade-up"
+        data-aos-duration="3000">
 
             {
                 currentAboutLocation === '/about' ? 
@@ -51,7 +52,7 @@ const AboutPage = () => {
 
 
             
-            <div className='ab-tm-header bg-white d-flex flex-column align-items-center justify-content-center py-5' style={{zIndex: 99}}>
+            <div className='ab-tm-header bg-white d-flex flex-column align-items-center justify-content-center py-5'>
                 <h2>Meet Our Team</h2>
                 <p>Hello Welcome to React About Page</p>
 

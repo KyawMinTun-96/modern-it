@@ -63,8 +63,6 @@ span {
 }
 
 .bg-body-tertiary {
-    /* background-color:rgb(224 224 229) ; */
-    /* background-color:#e7f0ff   !important; */
     background-color: #d1d1df !important;
 }
 
@@ -82,6 +80,89 @@ i {
 .contact-us h2 {
     margin-bottom: 20px;
 }
+
+
+
+/* Works on Firefox */
+:root{
+    scrollbar-color: #d1d1df transparent !important;
+    scrollbar-width: thin !important;
+}
+
+/* ::-webkit-scrollbar {
+    width: 0.75rem;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: Yellow;
+} */
+
+/* *::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    background-color: red;
+    border: 0.2rem solid green;
+} */
+
+
+
+
+
+
+
+
+
+/* Pagination */
+.custom-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-button {
+    border: none;
+    background-color: transparent;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.page-button.active {
+    background-color: #007bff;
+    color: white;
+    /*border-radius: 50%;
+    */width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.page-button:hover {
+    background-color: #f0f0f0;
+}
+
+.page-button[disabled] {
+    cursor: not-allowed;
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -163,6 +244,7 @@ i {
     background-position: bottom;
     background-attachment: fixed;
     width: 100%;
+    z-index: -300;
 }
 
 .contact-bg {
@@ -185,14 +267,11 @@ i {
 }
 
 .ct-box {
-    /* background-color: orange; */
     width: 100%;
 }
 
 .ct-box-lt {
-    /* background-color: red; */
     width: 100%;
-    /* height: 400px; */
 }
 
 .ct-box-info {
@@ -203,7 +282,6 @@ i {
     font-weight: normal;
     font-size: 16px;
     line-height: 1.5;
-    /* background-color: yellow; */
 }
 
 .ct-box-rt {
@@ -311,6 +389,13 @@ textarea.form-control {
 /* About Us */
 .ab-tm-card .card {
     background-color: #d1d1df !important;
+}
+
+.ab-tm-header {
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+
 }
 
 .ab-tm-header p {
@@ -504,7 +589,40 @@ textarea.form-control {
 
 
 
+/* Blog CSS */
+.blg-logo {
+    height: 200px;
+}
 
+.blg-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog .ab-tm-header .card {
+    background-color: #fff;
+    z-index: 9999;
+}
+
+
+
+
+/* Privacy Policy */
+.policy p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.policy-body ol{
+    list-style-type: decimal;
+}
+
+.pTab {
+    text-indent: 50px;
+}
 
 
 
@@ -535,4 +653,18 @@ textarea.form-control {
 /* Copyright */
 .copy-right {
     height: 50px;
+}
+
+
+.second-nav {
+    position: fixed;
+    top: 0;
+    background-color: blue;
+    z-index: 999999;
+    width: 100%;
+    transition: height 5s ease-in-out;
+    -webkit-transition: height 5s ease-in-out;
+    -moz-transition: height 5s ease-in-out;
+    -ms-transition: height 5s ease-in-out;
+    -o-transition: height 5s ease-in-out;
 }

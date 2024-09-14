@@ -18,7 +18,8 @@ const ServcePage = ()=> {
     }, [state]);
 
     return(
-        <div className='service bg-info'>
+        <div className='service bg-info' data-aos="fade-up"
+        data-aos-duration="3000">
 
             {
                 currentLocation === '/service' ? 

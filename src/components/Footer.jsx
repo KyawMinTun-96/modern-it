@@ -17,7 +17,7 @@ const footerPage = () => {
                         </p>
                     </div>
                     <div className='col-md-3 py-3'>
-                        <h1 className='fs-5'>Explore</h1>
+                        <h1 className='fs-5'>Quick Links</h1>
                         <ul className='ps-0 ft-link'>
                             <li>
                                 <NavLink to='/'>Home</NavLink>
@@ -43,7 +43,7 @@ const footerPage = () => {
                                 <NavLink to='/career'>Careers</NavLink>
                             </li>
                             <li>
-                                <NavLink to='/event'>Events</NavLink>
+                                <NavLink to='/'>Events</NavLink>
                             </li>
                             <li>
                                 <NavLink to='/privacy-policy'>Privacy Policy</NavLink>
